@@ -1,0 +1,9 @@
+clc; 
+clear; 
+close all; 
+warning off; 
+%%  
+a=im2double(imread('nature.jpg')); 
+b=im2double(a);figure,imshow(b); 
+c=2*(a.^0.5);figure,imshow(c); 
+d=2*(a.^1.5);figure,imshow(d); 
